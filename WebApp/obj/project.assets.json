@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andrewyehle/Projects/WebApp/WebApp/WebApp.csproj",
+      "projectUniqueName": "/Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "/Users/andrewyehle/Projects/WebApp/WebApp/WebApp.csproj",
+      "projectPath": "/Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/WebApp.csproj",
       "packagesPath": "/Users/andrewyehle/.nuget/packages/",
-      "outputPath": "/Users/andrewyehle/Projects/WebApp/WebApp/obj",
+      "outputPath": "/Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
