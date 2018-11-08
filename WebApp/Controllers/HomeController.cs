@@ -20,9 +20,23 @@ namespace WebApp.Controllers
             return View();
         }
 
+        public IActionResult SignUp()
+        {
+            ViewData["Message"] = "Just as soon as I get SSL and a secure DB.";
+
+            return View();
+        }
+
         public IActionResult Login()
         {
-            ViewData["Message"] = "User accounts are being written.";
+            ViewData["Message"] = "Also, just as soon as I get SSL and a secure DB.";
+
+            return View();
+        }
+
+        public IActionResult Downloads()
+        {
+            ViewData["Message"] = "Yep. Eventually.";
 
             return View();
         }
