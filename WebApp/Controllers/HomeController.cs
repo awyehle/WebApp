@@ -12,6 +12,7 @@ namespace WebApp.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Message"] = "Welcome to The Large Bad!";
             return View();
         }
 
@@ -36,8 +37,6 @@ namespace WebApp.Controllers
 
         public IActionResult Downloads()
         {
-            ViewData["Message"] = "Yep. Eventually.";
-
             return View();
         }
 
