@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="true">
     <title>@ViewData["Title"] - The Large Bad</title>
 
     <environment include="Development">
@@ -16,9 +17,9 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
-<body style="background-color: azure">
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: slategray">
-        <div class="container-fluid">
+<body style="background-color: lightgrey">
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: slategray">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -38,18 +39,21 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Login"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
 
 
-    @*<partial name="_CookieConsentPartial" />*@
-
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - Andrew</p>
-        </footer>
+        @*<partial name="_CookieConsentPartial" />*@
+        
+            <div class="jumbotron" style="background-image: url(https://ak5.picdn.net/shutterstock/videos/5858615/thumb/1.jpg); background-size: cover;">
+                <div style="text-align:center;">
+                    <h1>@ViewData["Title"]</h1>
+                </div>
+            </div>
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; 2018 - Andrew</p>
+            </footer>
     </div>
 
     <environment include="Development">

@@ -63,4 +63,3 @@
 /Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/obj/Debug/netcoreapp2.1/WebApp.dll
 /Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/obj/Debug/netcoreapp2.1/WebApp.pdb
 /Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/obj/Debug/netcoreapp2.1/WebApp.csproj.CopyComplete
-/Users/andrewyehle/Projects/awyehle/WebApp.git/WebApp/obj/Debug/netcoreapp2.1/WebApp.csprojAssemblyReference.cache
